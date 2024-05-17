@@ -18,6 +18,8 @@ Pra este programa se cuenta con un menú de opciones para una mayor eficiencia.
 
 
 El programa nos permite:
+
+
 -Agregar nuevas bicicletas a inventario de los diferentes tipos.
 
 -Saber el valor total del inventario es decir la suma de todos los productos existentes.
