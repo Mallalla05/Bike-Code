@@ -32,3 +32,14 @@ El programa nos permite:
 
 Para que el codigo pueda correr de la forma correcta es necesario tener abierta todas las clases. El programa se realiza en c++ y se puede ejecutar desde cualquier sistema operativo.
 
+**Casos de falla**
+
+-Dar información erronea al registro de una nueva bicicleta.
+
+-Buscar productos inexistentes.
+
+-Dar otro tipo de dato del aceptado.
+
+-No abrir todos los archivos.
+
+-No ejecutar con g++.
