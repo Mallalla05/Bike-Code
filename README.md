@@ -4,7 +4,7 @@
 **Tienda de bicicletas**
 
 
-En dicho proyecto se trata sobre una  tienda de bicicletas que cuenta con  productos para las distintas modalidades que existen asi como sus cracteristicas,se organizan los productos de acuerdo a la modalidad de ciclismo y sus caracteristicas.Los tipos de bicicleta son:
+En dicho proyecto se trata sobre una  tienda de bicicletas que cuenta con  productos para las distintas modalidades que existen en el inventario.Se organizan por su tipo y uso,se permite agregar bicicletas al invetarioa,calcular su precio total y mostrar los detalles de estas.Los tipos de bicicleta son:
 - Montaña
 - Ruta
 - Urbana
@@ -17,7 +17,12 @@ Pra este programa se cuenta con un menú de opciones para una mayor eficiencia.
 **Funcionalidad**
 
 
-El programa nos permite calcular el precio final de los productos a comprar o los descuentos en caso de ser asi, ademas de registrar nuevas bicicletas.
+El programa nos permite:
+-Agregar nuevas bicicletas a inventario de los diferentes tipos.
+
+-Saber el valor total del inventario es decir la suma de todos los productos existentes.
+
+-Enseñar las caracteristicas del producto solicitado.
 
 
 **Consideraciones**
