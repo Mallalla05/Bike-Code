@@ -8,7 +8,8 @@ private:
     string suspension;
 
 public:
-    Montana(string nom, string mar, int a, double p, string col, double pre, string susp)
+    Montana(string nom, string mar, int a, double p, string col, double pre,
+            string susp)
         : Bicicleta(nom, mar, a, p, col, pre), suspension(susp) {}
 
     string getTipo() const override { return "Montaña"; }
@@ -16,7 +17,8 @@ public:
         stringstream ss;
         ss << "Tipo: Montaña, Nombre: " << nombre << ", Marca: " << marca
            << ", Año: " << ano << ", Peso: " << peso << "kg, Color: " << color
-           << ", Precio $: " << precio << ", Suspensión: " << suspension << "\n";
+           << ", Precio $: " << precio << ", Suspensión: " 
+            << suspension << "\n";
         return ss.str();
     }
 };
