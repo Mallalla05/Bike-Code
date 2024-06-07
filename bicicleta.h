@@ -18,7 +18,6 @@ protected:
 public:
     Bicicleta(string nom, string mar, int a, double p, string col, double pre)
         : nombre(nom), marca(mar), ano(a), peso(p), color(col), precio(pre) {}
-    virtual ~Bicicleta() {} 
     virtual string getTipo() const = 0;
     virtual string toString() const = 0;
     double getPrecio() const { return precio; }
