@@ -23,11 +23,6 @@ private:
 
 public:
     Tienda() : numBicicletas(0) {}
-    ~Tienda() {
-        for (int i = 0; i < numBicicletas; ++i) {
-            delete inventario[i];
-        }
-    }
 
     void agregarBicicleta(Bicicleta* bici) {
         if (numBicicletas < MAX) {
@@ -38,18 +33,30 @@ public:
     }
 
     void creaEjemplos() {
-        agregarBicicleta(new Montana("XCaliber", "Trek", 2023, 11.8, "Negro, Azul, Rojo", 28000, "Suspensión delantera"));
-        agregarBicicleta(new Montana("Slash", "Trek", 2024, 13.7, "Negro", 118999, "Suspensión delantera y trasera"));
-        agregarBicicleta(new Ruta("SWorks Tarmac SL", "Specialized", 2023, 7.2, "Azul", 255000, "Carbono FACT"));
-        agregarBicicleta(new Ruta("SWorks Venge", "Specialized", 2023, 7.1, "Blanca", 11257, "Carbono FACT 12"));
-        agregarBicicleta(new Urbana("Urbana City", "Trek", 2020, 12.0, "Verde-Roja", 55999, 26));
-        agregarBicicleta(new Urbana("Dual Sport 2", "Trek", 2023, 10.0, "Rojo", 16499, 27.5));
-        agregarBicicleta(new Bmx("Modelo BMX Box", "Box", 2023, 10.0, "Negro", 14000, "Freno de disco"));
-        agregarBicicleta(new Bmx("Modelo BMX Pro-X", "Box", 2022, 9.8, "Gris", 11000, "Freno de disco"));
-        agregarBicicleta(new Ebike("Ebike Power", "Trek", 2023, 20.5, "Blanco", 344999, 80, 350));
-        agregarBicicleta(new Ebike("Ebike 27", "Specialized", 2024, 15.5, "Negro", 12000,90, 500));
-        agregarBicicleta(new Gravel("Checkpoint SLR", "Trek", 2024, 8.45, "Marigold", 202999, "SRAM XG"));
-        agregarBicicleta(new Gravel("Crux Expert", "Specialized", 2024, 8.16, "GLOSS CARBON", 110000, "SRAM XPLR"));
+        agregarBicicleta(new Montana("XCaliber", "Trek", 2023, 11.8, 
+            "Negro,Azul, Rojo", 28000, "Suspensión delantera"));
+        agregarBicicleta(new Montana("Slash", "Trek", 2024, 13.7,
+            "Negro", 118999, "Suspensión delantera y trasera"));
+        agregarBicicleta(new Ruta("SWorks Tarmac SL", "Specialized", 2023, 7.2,
+            "Azul", 255000, "Carbono FACT"));
+        agregarBicicleta(new Ruta("SWorks Venge", "Specialized", 2023, 7.1, 
+            "Blanca", 11257, "Carbono FACT 12"));
+        agregarBicicleta(new Urbana("Urbana City", "Trek", 2020, 12.0, 
+            "Verde-Roja", 55999, 26));
+        agregarBicicleta(new Urbana("Dual Sport 2", "Trek", 2023, 10.0, 
+            "Rojo", 16499, 27.5));
+        agregarBicicleta(new Bmx("Modelo BMX Box", "Box", 2023, 10.0, 
+            "Negro", 14000, "Freno de disco"));
+        agregarBicicleta(new Bmx("Modelo BMX Pro-X", "Box", 2022, 9.8, 
+            "Gris", 11000, "Freno de disco"));
+        agregarBicicleta(new Ebike("Ebike Power", "Trek", 2023, 20.5, 
+            "Blanco", 344999, 80, 350));
+        agregarBicicleta(new Ebike("Ebike 27", "Specialized", 2024, 15.5, 
+            "Negro", 12000,90, 500));
+        agregarBicicleta(new Gravel("Checkpoint SLR", "Trek", 2024, 8.45, 
+            "Marigold", 202999, "SRAM XG"));
+        agregarBicicleta(new Gravel("Crux Expert", "Specialized", 2024, 8.16, 
+            "GLOSS CARBON", 110000, "SRAM XPLR"));
    
     }
 void muestraBicicletas() const {
