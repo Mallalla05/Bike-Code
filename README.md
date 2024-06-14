@@ -34,12 +34,6 @@ Para que el codigo pueda correr de la forma correcta es necesario tener abierta 
 
 **Casos de falla**
 
--Dar información erronea al registro de una nueva bicicleta.
+-Querer agregar mas bicicletas de las que esta permitida en el inventario (100).
 
--Buscar productos inexistentes.
-
--Dar otro tipo de dato del aceptado.
-
--No abrir todos los archivos.
-
--No ejecutar con g++.
+-Dar datos inválidos o valores fuera de los permitidos cuando se agrege una bici nueva.
