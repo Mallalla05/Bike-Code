@@ -37,3 +37,23 @@ Para que el codigo pueda correr de la forma correcta es necesario tener abierta 
 -Querer agregar mas bicicletas de las que esta permitida en el inventario (100).
 
 -Dar datos inválidos o valores fuera de los permitidos cuando se agrege una bici nueva.
+
+**Correcciones**
+
+-Se corrigieron todas las cosas que me colocaron en comentarios despues de las revisionescomo:
+
+  -Casos de falla de forma mas explicada.
+
+  -Implementar de forma correcta las herencias.
+
+  -Correción de constructores.
+
+  -Agregar sobreescritura.
+
+  -Agregar polimorfismos.
+
+  -Corrección y agregar las coss faltantes en el UML.
+
+-Ademas de agregar los puntos faltantes de la rúbrica.
+  
+
