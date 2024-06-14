@@ -167,6 +167,6 @@ int main() {
   } while (opcion != 4); // deja que el codigo se siga repitiendo hasta que el
                          // usuario nos deje salir
 
-  return 0; // Se finaliza el examen
+  return 0; // Se finaliza el programa
 }
 
